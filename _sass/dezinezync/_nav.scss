@@ -1,8 +1,7 @@
 nav {
 	flex: 1 0 calc(var(--dz-column-unit) * 3 + var(--dz-spacing-unit) * 2);
 	padding-right: var(--dz-spacing-unit);
-	padding-top: calc(var(--dz-spacing-unit) + 1px);
-
+	
 	text-align: right;
 
 	ul {

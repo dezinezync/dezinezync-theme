@@ -1,6 +1,6 @@
 # dezinezync
 
-Personal theme for my website blogs and personal blog. 
+Jekyll theme for my website blogs and personal blog. 
 
 # License
 

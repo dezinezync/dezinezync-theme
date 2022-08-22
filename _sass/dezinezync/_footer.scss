@@ -1,0 +1,8 @@
+footer {
+	min-height: calc(var(--dz-column-unit) * 1);
+	padding-left: calc(var(--dz-column-unit) * 3 + var(--dz-spacing-unit) * 3);
+
+	p {
+		padding: 0 calc(var(--dz-spacing-unit) * 1.8);
+	}
+}

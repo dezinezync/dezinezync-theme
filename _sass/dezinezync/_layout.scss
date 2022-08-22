@@ -1,0 +1,24 @@
+body > .container {
+  width: 100%;
+  max-width: 830px;
+  margin: 0 auto;
+}
+
+@import "header";
+
+#content-wrapper {
+  display: flex;
+}
+
+@import "nav";
+
+main {
+  flex: 1 1 calc(var(--dz-column-unit) * 9 + var(--dz-spacing-unit) * 8);
+}
+
+@import "post-list";
+@import "page";
+
+@import "footer";
+
+@import "rwd";

@@ -1,0 +1,24 @@
+title: Dezine Zync
+author: Nikhil Nigade
+email: nikhil@dezinezync.com
+description: > # this means to ignore newlines until "twitter_username:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+# social links
+twitter_username: dezinezync
+github_username:  dezinezync
+rss: feed
+
+theme: dezinezync
+# brandColor: '#FF701A'
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+externalLinks:
+  - title: Elytra
+    url: https://elytra.app
+  - title: Pockity
+    url: https://pockity.app

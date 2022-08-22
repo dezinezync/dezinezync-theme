@@ -1,0 +1,30 @@
+nav {
+	flex: 1 0 calc(var(--dz-column-unit) * 3 + var(--dz-spacing-unit) * 2);
+	padding-right: var(--dz-spacing-unit);
+	padding-top: calc(var(--dz-spacing-unit) + 1px);
+
+	text-align: right;
+
+	ul {
+		list-style: none;
+
+		li {
+			font-size: 0.9rem;
+			color: var(--dz-brand-color);
+
+			display: block;
+			margin: calc(var(--dz-spacing-unit) * 0.5) 0;
+
+			&:first-of-type {
+				margin-top: 0;
+			}
+		}		
+	}
+}
+
+a.external-link {
+	&:after {
+		content: ' ↪';
+		vertical-align: middle;
+	}
+}

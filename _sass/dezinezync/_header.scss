@@ -1,0 +1,21 @@
+/**
+ * Header
+ */ 
+
+header {
+  padding-left: calc(var(--dz-column-unit) * 3 + var(--dz-spacing-unit) * 3);
+  margin-bottom: calc(var(--dz-spacing-unit) * 4);
+
+  .site-title {
+    font-size: 2rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: var(--dz-title-color);
+  }
+
+  .description {
+    font-size: 0.9rem;
+    color: var(--dz-subtitle-color);
+    padding: 0 var(--dz-spacing-unit);
+  }
+}

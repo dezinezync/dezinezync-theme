@@ -1,0 +1,19 @@
+.pager {
+	.pagination {
+		list-style: none;
+		display: flex;
+
+		.pager-edge {
+			display: none;
+		}	
+
+		li {
+			margin: 0 var(--dz-spacing-unit);
+			font-weight: 500;
+
+			&:first-of-type {
+				margin-left: 0;
+			}
+		}
+	}
+}

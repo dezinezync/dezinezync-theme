@@ -1,6 +1,7 @@
 title: Dezine Zync
-author: Nikhil Nigade
-email: nikhil@dezinezync.com
+author: 
+  - name: Nikhil Nigade
+  - email: nikhil@dezinezync.com
 description: > # this means to ignore newlines until "twitter_username:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -20,5 +21,3 @@ plugins:
 externalLinks:
   - title: Elytra
     url: https://elytra.app
-  - title: Pockity
-    url: https://pockity.app

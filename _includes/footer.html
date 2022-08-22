@@ -2,7 +2,7 @@
   <p>
     {{ site.title | escape }}
     {%- if site.author -%}
-    &nbsp;- {{ site.author | escape }}
+    &nbsp;- {{ site.author.name | escape }}
     {%- endif -%}
     &nbsp; All Rights Reserved
   </p>

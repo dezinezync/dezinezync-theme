@@ -5,9 +5,13 @@ layout: default
 
 {% if page.title == "" or page.microblog == true %}
 <span class="post-meta">{{ page.date | date: date_format }}</span>
-{{ content }}
+<article class="micro">
+	{{ content }}
+</article>
 {% else %}
 <h3 class="page-title">{{ page.title | escape }}</h3>
 <span class="post-meta">{{ page.date | date: date_format }}</span>
-{{ content }}
+<article>
+	{{ content }}
+</article>
 {%- endif -%}

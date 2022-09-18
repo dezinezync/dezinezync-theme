@@ -1,10 +1,8 @@
-<header class="site-header">
-  <center>
-    <div id="logo">
-      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-    </div>
-    <div class="description">
-      {{- site.description | escape -}}
-    </div>
-  </center>
+<header>
+  <div id="logo">
+    <a rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+  </div>
+  <div class="description">
+    {{- site.description | escape -}}
+  </div>
 </header>

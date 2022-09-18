@@ -1,21 +1,14 @@
-/**
- * Header
- */ 
-
 header {
-  padding-left: calc(var(--dz-column-unit) * 3 + var(--dz-spacing-unit) * 3);
-  margin-bottom: calc(var(--dz-spacing-unit) * 4);
+	padding: 2rem 0 1rem;
 
-  .site-title {
-    font-size: 2rem;
-    font-weight: 800;
-    text-decoration: none;
-    color: var(--dz-title-color);
-  }
+	#logo {
+		font-size: 3rem;
+		font-weight: 800;
+		color: var(--dz-title-color);
+	}
 
-  .description {
-    font-size: 0.9rem;
-    color: var(--dz-subtitle-color);
-    padding: 0 var(--dz-spacing-unit);
-  }
+	.description {
+		font-family: var(--dz-sans-serif);
+		color: var(--dz-subtitle-color);
+	}
 }

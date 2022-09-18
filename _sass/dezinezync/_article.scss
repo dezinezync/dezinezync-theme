@@ -1,0 +1,51 @@
+.post-link h3, .page-title {
+	font-family: var(--dz-serif);
+	font-size: 4rem;
+	line-height: 1.1;
+	margin-bottom: 1rem;
+}
+
+.post-meta {
+	display: inline-block;
+	margin-bottom: 0.5rem;
+	color: var(--dz-subtitle-color);
+	font-weight: 600;
+
+	&:hover {
+		color: var(--dz-brand-color);
+	}
+}
+
+article {
+	margin: 1rem 0 0;
+	padding: 0;
+	border: none;
+	background-color: inherit;
+	box-shadow: none;
+}
+
+article, .article {
+	p {
+		max-width: 64ch;
+		color: var(--dz-text-color);
+	}
+
+	img {
+		margin-bottom: 1rem;
+
+		// & ~ img {
+		// 	margin-top: 1rem;
+		// }
+	}
+
+	&.micro {
+		p {
+			font-size: 1.25rem;
+			max-width: 48ch;
+		}
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		margin-bottom: 1rem;
+	}
+}

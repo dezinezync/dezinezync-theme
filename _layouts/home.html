@@ -28,7 +28,9 @@ layout: default
         <a class="post-link" href="{{ post.url | relative_url }}">
           <span class="post-meta">{{ post.date | date: date_format }}</span>
         </a>
-        {{ post.content }}
+        <div class="article micro">
+          {{ post.content }}
+        </div>
         {% else %}
         <a class="post-link" href="{{ post.url | relative_url }}">
           <h3>{{ post.title | escape }}</h3>
@@ -36,7 +38,9 @@ layout: default
         <a class="post-link" href="{{ post.url | relative_url }}">
           <span class="post-meta">{{ post.date | date: date_format }}</span>
         </a>
-        {{ post.content }}
+        <div class="article">
+          {{ post.content }}
+        </div>
         {%- endif -%}
       </li>
       {%- endfor -%}

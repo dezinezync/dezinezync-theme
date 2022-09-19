@@ -35,11 +35,13 @@ body {
   background-color: var(--dz-background-color);
 }
 
-.external-link {
-  &:after { 
-    content: " ↪";
-    vertical-align: middle;
-  }   
+@media only screen and (min-width: 601px) {
+  .external-link {
+    &:after { 
+      content: " ↪";
+      vertical-align: middle;
+    }   
+  }
 }
 
 // Import Pico
